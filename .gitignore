@@ -1,0 +1,4 @@
+venv
+.idea
+fil.csv
+__pycache__
