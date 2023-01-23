@@ -5,7 +5,7 @@ from git.repo.base import Repo
 
 
 def download_repository(url: str, name: str):
-    return Repo.clone_from(url, f'{name}')
+    Repo.clone_from(url, f'{name}')
 
 
 if __name__ == '__main__':
